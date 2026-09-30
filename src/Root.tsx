@@ -5,9 +5,10 @@ export const RemotionRoot = () => (
   <Composition
     id="TeacherVideo"
     component={TeacherVideo}
-    durationInFrames={150}
-    fps={30}
-    width={1920}
-    height={1080}
+    durationInFrames={192}
+    fps={24}
+    width={1080}
+    height={1920}
+    defaultProps={{videoSrc: ''}}
   />
 );
